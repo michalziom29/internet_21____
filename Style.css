@@ -1,0 +1,130 @@
+@charset "utf-8";
+body {
+	background-color:#ADA7A7;	
+	}
+	
+	p {
+		color:#000000;
+	}
+	#wrapper {
+	width: 1000px;
+	background-color: #E0E0E0;
+	margin: auto;
+	border-radius: 3px;
+	}
+main {
+	background-color: #E3DADA;
+	width: 65%;
+	
+	border-width: thin;
+	border-color: #292121;
+	padding-top:2px;
+	padding-right: 2px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	float: left;
+	
+
+}
+	 section {
+		
+		background-color: gray;
+		border:medium;
+		border-color: #581718
+	}
+	
+	a:link{
+		text-decoration: none;
+		background-color:aliceblue;
+		border:thin solid;
+		border-color: #1669AD;
+		width:150px;
+		padding-right:3px;
+		padding-left:3px;
+		text-align: center;
+		color:#1E0098;
+	}
+	
+	
+	
+	
+	
+header {
+	text-align: center;
+	vertical-align: middle;
+	background-color: #c3bcbc;
+	border: medium solid #000000;
+	height: 100px;
+}
+.navbar{
+	overflow:hidden;
+		background-color: #DD5D89 ;
+		position: fixed;
+		Top:0;
+		width: 1300px;
+}
+	
+nav {
+	background-color:#929292;
+	height:80px;
+	border:ridge;
+	text-align: left;
+
+
+
+}
+aside {
+	background-color: #d4cdcd;
+	border:ridge;
+	float: right;
+	width: 34%;
+	
+
+	
+}
+footer {
+	text-align:left;
+	clear: left;
+	font-size: 0.875em;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-image: url("images/white.jpg");
+	max-width: none;
+	min-width: 0px;
+	border-style:ridge;
+	height: 100px;
+	
+	}
+	h1{
+		color:black;
+		
+	}
+	
+		
+	
+	
+		
+	
+a:visited {
+	text-decoration: none;
+	color:blueviolet;
+}
+a:hover {
+	text-decoration: underline;
+}
+	li {
+		background-color:aqua;
+		
+	 
+	}
+a:active {
+	text-decoration: none;
+	color:cadetblue;
+}
+	ul {
+		list-style-image: url("images/Black_star.20.png")
+	}
+.active {
+	background-color: #fb1712;
+	color:#ffffff;
+	}
